@@ -1,0 +1,10 @@
+.*
+RL_and_OC/
+stu_dataset/val/
+stu_dataset/val_out/
+stu_dataset/output_video.mp4
+!.gitignore
+!.gitattributes
+stu_dataset/scene_125.tar.gz
+nuscenes/
+
