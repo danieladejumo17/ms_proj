@@ -1,0 +1,269 @@
+
+--------------------------------------------------------------------------------
+Batch run at Tue Oct  7 02:03:55 2025
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_0.mp4
+Time elapsed: 23.46s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_12.mp4
+Time elapsed: 13.22s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_16.mp4
+Time elapsed: 11.46s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_4.mp4
+Time elapsed: 12.49s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_8.mp4
+Time elapsed: 11.66s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_0.mp4
+Time elapsed: 11.96s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_12.mp4
+Time elapsed: 37.37s
+No external anomalies detected. The video depicts a typical urban street scene with no unexpected obstacles, rule violations, or unusual movements affecting safe navigation. All visible elements align with normal city traffic conditions.
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_16.mp4
+Time elapsed: 11.49s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_4.mp4
+Time elapsed: 40.72s
+No external anomalies detected. The scene depicts normal urban traffic conditions with no unexpected obstacles, rule violations, or unusual movements affecting safe operation. All vehicles appear stationary or moving as expected, and the road environment is consistent and predictable.
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_8.mp4
+Time elapsed: 49.82s
+No external anomalies detected. The scene depicts normal urban traffic conditions with no unexpected obstacles, rule violations, or unusual movements affecting safe operation. All vehicles appear to be moving predictably within their respective lanes, and there are no signs of adverse road conditions or visual misinterpretations.
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_0.mp4
+Time elapsed: 4.61s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_12.mp4
+Time elapsed: 11.26s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_16.mp4
+Time elapsed: 4.46s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_4.mp4
+Time elapsed: 6.97s
+No anomalies detected.
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_8.mp4
+Time elapsed: 11.73s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_0.mp4
+Time elapsed: 34.96s
+No external anomalies detected. The scene depicts a typical urban street with no unexpected obstacles, rule violations, or unusual movements affecting safe navigation. All visible elements align logically with normal traffic conditions.
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_12.mp4
+Time elapsed: 10.57s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_16.mp4
+Time elapsed: 11.23s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_4.mp4
+Time elapsed: 11.16s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_8.mp4
+Time elapsed: 11.15s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_SIX_mosaic.mp4
+Time elapsed: 14.25s
+No, there are no external anomalies in this video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_0.mp4
+Time elapsed: 12.36s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_12.mp4
+Time elapsed: 7.08s
+No anomalies detected.
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_16.mp4
+Time elapsed: 12.55s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_4.mp4
+Time elapsed: 11.87s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_8.mp4
+Time elapsed: 7.33s
+No anomalies detected.
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_0.mp4
+Time elapsed: 12.22s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_12.mp4
+Time elapsed: 12.11s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_16.mp4
+Time elapsed: 11.73s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_4.mp4
+Time elapsed: 11.60s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_8.mp4
+Time elapsed: 12.69s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_0.mp4
+Time elapsed: 12.41s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_12.mp4
+Time elapsed: 12.04s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_16.mp4
+Time elapsed: 12.30s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_4.mp4
+Time elapsed: 11.86s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_8.mp4
+Time elapsed: 11.97s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_0.mp4
+Time elapsed: 11.84s
+No, the video does not contain anomalies.
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_12.mp4
+Time elapsed: 11.41s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_16.mp4
+Time elapsed: 11.99s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_4.mp4
+Time elapsed: 12.43s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_8.mp4
+Time elapsed: 12.02s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_0.mp4
+Time elapsed: 11.96s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_12.mp4
+Time elapsed: 11.80s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_16.mp4
+Time elapsed: 11.62s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_4.mp4
+Time elapsed: 13.60s
+No, there are no external anomalies in this video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_8.mp4
+Time elapsed: 11.98s
+No external anomalies were detected in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_0.mp4
+Time elapsed: 7.19s
+No anomalies detected.
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_12.mp4
+Time elapsed: 14.56s
+No, there are no external anomalies present in this video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_16.mp4
+Time elapsed: 13.55s
+No, there are no anomalies present in the video.
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_4.mp4
+Time elapsed: 39.03s
+No external anomalies detected. The scene depicts normal nighttime urban traffic conditions with no unexpected obstacles, rule violations, or unusual movements affecting safe operation. All visible elements align with typical city streets at night.
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_8.mp4
+Time elapsed: 241.25s
+```json
+{
+  "external_anomalies": [
+    {
+      "anomaly": "A black car is seen driving through an intersection under a bridge at night. As it moves forward, the vehicle unexpectedly emits a large plume of smoke or vapor from its rear, which grows denser and more erratic as the car continues. The smoke partially obscures the view of the car and the surrounding area.",
+      "description": "The sudden appearance of a thick, billowing cloud of smoke or vapor from the car's rear is highly unusual and unexpected. This anomaly could confuse or mislead autonomous vehicles' perception systems, such as lidar or cameras, causing them to misinterpret the situation. The smoke's rapid expansion and density suggest an irregular or malfunctioning source, potentially indicating a mechanical failure or deliberate release. This event introduces a significant safety risk for nearby road users, including the autonomous vehicle itself.",
+      "context_misinterpretation": "Autonomous vehicles rely on accurate environmental sensing to navigate safely. The dense smoke could be misinterpreted as a solid object or obstacle, leading to incorrect braking or steering actions. Additionally, the sudden nature of the smoke's appearance makes it challenging for the system to adapt quickly, increasing the risk of a collision or loss of control."
+    }
+  ]
+}
+```
+--------------------------------------------------------------------------------

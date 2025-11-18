@@ -1,0 +1,389 @@
+
+--------------------------------------------------------------------------------
+Batch run at Mon Oct  6 19:40:07 2025
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_0.mp4
+Time elapsed: 18.34s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_12.mp4
+Time elapsed: 11.54s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_16.mp4
+Time elapsed: 6.06s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_4.mp4
+Time elapsed: 5.69s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0061_CAM_FRONT_8.mp4
+Time elapsed: 5.30s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_0.mp4
+Time elapsed: 5.40s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_12.mp4
+Time elapsed: 5.82s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_16.mp4
+Time elapsed: 5.47s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_4.mp4
+Time elapsed: 5.60s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0103_CAM_FRONT_8.mp4
+Time elapsed: 5.28s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_0.mp4
+Time elapsed: 5.32s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_12.mp4
+Time elapsed: 5.16s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_16.mp4
+Time elapsed: 5.25s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_4.mp4
+Time elapsed: 5.64s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0553_CAM_FRONT_8.mp4
+Time elapsed: 5.12s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_0.mp4
+Time elapsed: 5.47s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_12.mp4
+Time elapsed: 6.19s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_16.mp4
+Time elapsed: 5.23s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_4.mp4
+Time elapsed: 5.34s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0655_CAM_FRONT_8.mp4
+Time elapsed: 5.28s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_0.mp4
+Time elapsed: 5.31s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_12.mp4
+Time elapsed: 5.10s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_16.mp4
+Time elapsed: 5.18s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_4.mp4
+Time elapsed: 5.13s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0757_CAM_FRONT_8.mp4
+Time elapsed: 5.11s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_0.mp4
+Time elapsed: 5.61s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_12.mp4
+Time elapsed: 5.85s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_16.mp4
+Time elapsed: 5.54s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_4.mp4
+Time elapsed: 5.21s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0796_CAM_FRONT_8.mp4
+Time elapsed: 5.75s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_0.mp4
+Time elapsed: 5.34s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_12.mp4
+Time elapsed: 5.52s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_16.mp4
+Time elapsed: 5.86s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_4.mp4
+Time elapsed: 5.23s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-0916_CAM_FRONT_8.mp4
+Time elapsed: 5.32s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_0.mp4
+Time elapsed: 5.50s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_12.mp4
+Time elapsed: 5.34s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_16.mp4
+Time elapsed: 5.73s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_4.mp4
+Time elapsed: 5.91s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1077_CAM_FRONT_8.mp4
+Time elapsed: 5.35s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_0.mp4
+Time elapsed: 5.73s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_12.mp4
+Time elapsed: 5.30s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_16.mp4
+Time elapsed: 5.90s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_4.mp4
+Time elapsed: 406.14s
+```json
+{
+  "critical_anomalies": [
+    {
+      "description": "Pedestrians crossing the street without designated crosswalks, requiring the ego-vehicle to slow down or stop abruptly."
+      },
+    {
+      "description": "A truck making an illegal U-turn in the middle of the intersection, obstructing multiple lanes of traffic."
+      },
+    {
+      "description": "A car suddenly swerving into the ego-vehicle's lane from the adjacent lane, forcing an evasive maneuver."
+      },
+    {
+      "description": "A cyclist merging into the traffic flow without proper signaling, leading to a near-miss situation."
+      },
+    {
+      "description": "Traffic lights malfunctioning or changing colors unpredictably, confusing the ego-vehicle's navigation."
+      },
+    {
+      "description": "A pedestrian holding a large umbrella partially obscuring their view, complicating detection of their movements."
+      }
+  ],
+  "context_misinterpretation_anomalies": [
+    {
+      "description": "The ego-vehicle mistakenly identifying a reflective sign or advertisement as a pedestrian, causing unnecessary braking."
+      },
+    {
+      "description": "Shadow cast by a building distorting the appearance of a stationary object, leading to misjudgment of its position."
+      },
+    {
+      "description": "A blurred image of a store display being interpreted as a hazard, resulting in incorrect steering adjustments."
+      }
+  ],
+  "other_safety_concerns": [
+    {
+      "description": "Multiple vehicles tailgating each other, creating significant stopping distances and increasing collision risks."
+      },
+    {
+      "description": "Road markings fading or missing, disorienting the ego-vehicle regarding lane boundaries."
+      },
+    {
+      "description": "Heavy fog reducing visibility to below 50 meters, testing the effectiveness of sensors like LiDAR or camera systems."
+      }
+  ]
+}
+```
+--------------------------------------------------------------------------------
+
+Processing: scene-1094_CAM_FRONT_8.mp4
+Time elapsed: 5.22s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_0.mp4
+Time elapsed: 594.32s
+```json
+{
+  "external_anomalies": [
+    {
+      "anomaly": "Smoke or vapor emanating from the front of multiple vehicles, including the car directly ahead of the ego-vehicle.",
+      "description": "The smoke appears to originate from under the hood of the vehicles, suggesting engine malfunctions or mechanical issues. This could lead to reduced visibility for the ego-vehicle and other road users, potentially causing confusion or misinterpretation of the situation by autonomous systems. The origin of the smoke is consistent across multiple vehicles, indicating a possible cluster of incidents rather than random occurrences.",
+      "impact": "The smoke could obscure critical visual cues, such as brake lights or lane markings, increasing the risk of collisions. Autonomous vehicles relying on visual perception systems might struggle to accurately assess the distance to the smoking vehicles or their intent to stop or yield.",
+      "mitigation": "Autonomous systems should be programmed to maintain a safe following distance and be prepared for unexpected stops or malfunctions. Regular checks for mechanical issues in connected vehicles could also help prevent such scenarios."
+    },
+    {
+      "anomaly": "A motorcycle passing close to the ego-vehicle while making a turn.",
+      "description": "The proximity of the motorcycle to the ego-vehicle during a turn could create a near-miss scenario. Autonomous vehicles must accurately perceive and react to such dynamic movements, especially at night when visibility is lower. The motorcycle's headlights may also cause glare, further challenging sensor interpretation.",
+      "impact": "The close approach raises the risk of collision if the ego-vehicle miscalculates the motorcycle's trajectory. Autonomous systems need to effectively handle sudden lateral movements and ensure adequate reaction time.",
+      "mitigation": "Enhanced sensor fusion and machine learning algorithms can improve the ability to detect and prioritize moving objects like motorcycles. Additionally, mapping and navigation systems should account for potential hotspots where such interactions are more likely."
+    },
+    {
+      "anomaly": "Traffic flowing smoothly without significant congestion or abrupt stops.",
+      "description": "While smooth traffic flow might seem normal, it can sometimes obscure the presence of hazards. For example, hidden obstacles or sudden stops behind seemingly unobstructed vehicles could catch autonomous systems off guard. The lack of congestion might also lead to less frequent data collection of such scenarios, potentially degrading the system's readiness."
+      "impact": "Smooth traffic can mask emerging risks, such as jaywalking pedestrians or erratic driver behavior, which are harder to anticipate. Autonomous vehicles must remain vigilant even in seemingly stable environments.",
+      "mitigation": "Continuous sensor monitoring and predictive modeling can help anticipate potential disruptions in otherwise orderly traffic patterns. Regular updates based on real-world scenarios ensure the system adapts to various conditions."
+    }
+  ]
+}
+```
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_12.mp4
+Time elapsed: 617.43s
+```json
+{
+  "external_anomalies": [
+    {
+      "anomaly": "Ghostly blue figure",
+      "description": "A translucent, ghostly blue figure is visible in the center of the frame, hovering above the ground. It appears to have an undefined shape and does not interact physically with the environment. This figure could be interpreted as a visual artifact, digital rendering error, or a reflection, but its presence introduces an element of unpredictability for an autonomous vehicle, potentially confusing visual perception systems."
+    },
+    {
+      "anomaly": "Motorcycle with glowing blue figure",
+      "description": "The motorcycle ridden by the person emits a bright blue glow, which seems inconsistent with typical vehicle lighting. The glow appears to originate from the rider or the motorcycle itself, creating a surreal effect. This unusual illumination could lead to misinterpretation by sensors, such as lidar or camera systems, causing false detections or difficulties in processing the vehicle's speed and trajectory."
+    }
+  ],
+  "context_misinterpretation_anomalies": [
+    {
+      "anomaly": "Motorcycle speed interpretation",
+      "description": "The motorcycle's motion blur suggests it is moving at a high speed. However, the consistent speed appearance in the frames raises questions about whether the vehicle's velocity is accurately perceived by the autonomous system. If the system misinterprets the motorcycle's speed as constant despite visible acceleration or deceleration, it could lead to unsafe navigation decisions."
+    },
+    {
+      "anomaly": "Glowing blue figure as obstacle",
+      "description": "The ghostly blue figure, if mistaken for a solid object by the autonomous vehicle's perception system, could result in unnecessary braking or evasive maneuvers. This confusion between a transient, non-threatening figure and a physical object highlights a potential vulnerability in visual recognition models."
+    }
+  ],
+  "other_safety_concerns": [
+    {
+      "anomaly": "Traffic light state",
+      "description": "The traffic light remains green throughout the sequence, suggesting normal operation; however, if the autonomous vehicle relies on real-time signal validation, a potential glitch or delay in detecting the light change could arise if the figure or other anomalies interfere with the vehicle's sensors."
+    },
+    {
+      "anomaly": "Road markings and lane discipline",
+      "description": "The road markings appear clear, but the presence of the motorcycle and the glowing figure might distract the autonomous vehicle from maintaining proper lane discipline. Any misinterpretation of these elements could lead to lane drift or incorrect navigation within the roadway."
+    }
+  ]
+}
+```
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_16.mp4
+Time elapsed: 168.76s
+```json
+{
+  "external_anomalies": [
+    {
+      "anomaly": "A car is seen emitting a bright blue glow from its rear section as it moves along the road. This glow appears to be an artifact or visual glitch, likely caused by a reflection, light distortion, or rendering issue in the video. It does not correspond to a real-world object or phenomenon and could confuse the autonomous vehicle's perception systems, potentially leading to misinterpretation of the car's status or intent.",
+      "description": "The glowing effect is localized to the rear of the car, is intensely blue, and contrasts sharply with the surrounding environment. It remains consistent throughout the frames, suggesting a persistent anomaly."
+    }
+  ]
+}
+```
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_4.mp4
+Time elapsed: 5.48s
+No
+--------------------------------------------------------------------------------
+
+Processing: scene-1100_CAM_FRONT_8.mp4
+Time elapsed: 549.27s
+```json
+{
+  "external_anomalies": [
+    {
+      "anomaly": "A black car is seen driving through an intersection under a bridge at night. As it moves forward, a large, swirling blue energy effect emerges from behind the car, growing larger and more defined as it progresses. This energy appears to have no physical substance, floating independently in the air without interacting with the environment or other vehicles.",
+      "description": "The blue energy cloud behaves unnaturally, exhibiting fluid dynamics and expansion that defy typical physical laws. It remains suspended in the air, unaffected by gravity or collisions, which is inconsistent with how real-world objects would react. Its emergence from the car suggests a source not physically present, adding to the anomaly."
+    },
+    {
+      "anomaly": "A black car approaches an intersection from the left side of the frame and makes a right turn onto another road. During the turn, a bright blue energy sphere suddenly materializes near the car's rear and begins to spin erratically. The sphere emits a pulsating glow, intensifying as it rotates.",
+      "description": "The blue energy sphere exhibits sudden appearance and dynamic motion, spinning and glowing without a visible cause. Its behavior violates object permanence and realistic interaction principles, as it floats and changes form independently."
+    }
+  ],
+  "context_misinterpretation_anomalies": [
+    {
+      "anomaly": "The traffic light at the intersection remains green throughout the sequence, indicating permission for vehicles to proceed. However, the presence of the blue energy effects suggests that the vehicles may be violating expected traffic rules or encountering an unforeseen hazard.",
+      "description": "The static nature of the traffic light despite the unusual activity around it creates a contradiction. While the light itself functions normally, the context in which it operates introduces elements that defy standard expectations."
+    }
+  ],
+  "other_safety_concerns": [
+    {
+      "anomaly": "Several cars are visible in the background, maintaining their lanes and following the flow of traffic. No immediate collisions or erratic movements occur among these vehicles, but the focus on the anomalous energy effects distracts from potential interactions between them and the main subject vehicle.",
+      "description": "The surrounding vehicles behave predictably, but the introduction of the energy effects alters the scene's dynamics, creating a potential distraction or hazard for the autonomous vehicle system."
+    }
+  ]
+}
+```
+--------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+<think>
+You are reviewing a complex urban driving scene for hidden risks. Build your analysis in three passes:
+1. Rapid scan: list notable agents, road features, signage, and weather or lighting conditions.
+2. Deep dive: for each item, ask “how could an autonomous perception stack misread this?” Consider look-alikes, occlusions, reflections, or contradictory cues.
+3. Counterfactuals: imagine at least two realistic scenarios (e.g., rain starting, vehicle turning) that would amplify the risk.
+</think>
+
+<answer>
+Produce a concise report with these sections:
+Final Assessment:
+Anomaly: {Yes|No}
+Evidence: <bullet-style summary of the most deceptive cues and their approximate locations>
+Failure Modes: <short description of how perception or planning could break down>
+Mitigation: <specific sensor checks or procedural safeguards to verify before acting>
+Residual Uncertainty: <what to monitor next or missing sensor views to request (keep to one sentence)>
+
+Replace {Yes|No} with either Yes or No. Use complete sentences. Avoid hedging language—commit to the most plausible assessment.
+</answer>
