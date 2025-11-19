@@ -31,14 +31,14 @@ def load_model(model_name: str):
     print("🔧 Loading and compiling model... This may take a few seconds.")
     start = time.time()
 
-    bnb_config = transformers.BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="fp4", bnb_4bit_compute_dtype=torch.bfloat16)
+    bnb_config = transformers.BitsAndBytesConfig(load_in_8bit=True)
     model = transformers.Qwen2_5_VLForConditionalGeneration.from_pretrained(
         model_name,
         dtype=torch.bfloat16,
         quantization_config=bnb_config,
         # attn_implementation="flash_attention_2",
         device_map="auto",
-        local_files_only=True
+        # local_files_only=True
     ).eval()
 
     processor = transformers.AutoProcessor.from_pretrained(model_name, local_files_only=True)
@@ -222,7 +222,7 @@ def main():
     total_start_time = time.time()
 
     for i, video_path in enumerate(video_files):
-        # if not ("scene-0061_CAM_FRONT.mp4" in str(video_path): # TODO
+        # if not ("scene-0061_CAM_FRONT.mp4" in str(video_path)): # TODO
             # continue
         prefetch_start = time.time()
         prefetched_data = next_future.result()
