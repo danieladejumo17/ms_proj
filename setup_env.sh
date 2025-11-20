@@ -1,4 +1,5 @@
-cd ms_proj/my_cosmos-reason1
+# git clone https://github.com/danieladejumo17/ms_proj.git
+cd my_cosmos-reason1
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 uv tool install -U "huggingface_hub[cli]"
