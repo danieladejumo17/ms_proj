@@ -27,10 +27,20 @@ import torch
 from transformers import AutoProcessor, AutoTokenizer
 
 # Import quantization tools
+# try:
+#     from llmcompressor.modifiers.quantization import QuantizationModifier
+#     from llmcompressor.transformers import SparseAutoModelForCausalLM, SparseAutoTokenizer
+#     from llmcompressor import oneshot
+# except ImportError:
+#     print("❌ Error: 'llmcompressor' not found. Install it via: pip install llmcompressor")
+#     sys.exit(1)
+
+# ✅ NEW / FIXED
 try:
     from llmcompressor.modifiers.quantization import QuantizationModifier
-    from llmcompressor.transformers import SparseAutoModelForCausalLM, SparseAutoTokenizer
     from llmcompressor import oneshot
+    # Use standard transformers classes instead
+    from transformers import AutoModelForCausalLM, AutoTokenizer
 except ImportError:
     print("❌ Error: 'llmcompressor' not found. Install it via: pip install llmcompressor")
     sys.exit(1)
@@ -271,3 +281,4 @@ if __name__ == "__main__":
 
     # Step 2: Run Inference
     run_inference_loop(args.video_dir)
+

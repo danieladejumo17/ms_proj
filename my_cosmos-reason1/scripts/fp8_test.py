@@ -41,7 +41,7 @@ def load_model(model_name: str):
         # local_files_only=True
     ).eval()
 
-    processor = transformers.AutoProcessor.from_pretrained(model_name, local_files_only=True)
+    processor = transformers.AutoProcessor.from_pretrained(model_name) #, local_files_only=True)
     model.gradient_checkpointing_disable()
     torch.set_float32_matmul_precision("high")
     model = torch.compile(model)#, mode="reduce-overhead")
@@ -214,10 +214,10 @@ def main():
 
     print(f"📂 Found {len(video_files)} videos — starting hybrid-prefetch inference\n" + "=" * 50)
 
-    prefetch_executor = ThreadPoolExecutor(max_workers=1)
+    # prefetch_executor = ThreadPoolExecutor(max_workers=1)
     
     # --- THIS IS THE CORRECTED LINE ---
-    next_future = prefetch_executor.submit(prefetch_video, video_files[0], args.fps, target_resolution)
+    # next_future = prefetch_executor.submit(prefetch_video, video_files[0], args.fps, target_resolution)
     
     total_start_time = time.time()
 
@@ -225,11 +225,13 @@ def main():
         # if not ("scene-0061_CAM_FRONT.mp4" in str(video_path)): # TODO
             # continue
         prefetch_start = time.time()
-        prefetched_data = next_future.result()
+        # prefetched_data = next_future.result()
+        # prefetch_video(video_path: Path, target_fps: int, target_resolution: tuple[int, int]):
+        prefetched_data = prefetch_video(video_path, args.fps, target_resolution)
         prefetch_time = time.time() - prefetch_start
 
-        if i + 1 < len(video_files):
-            next_future = prefetch_executor.submit(prefetch_video, video_files[i + 1], args.fps, target_resolution)
+        # if i + 1 < len(video_files):
+            # next_future = prefetch_executor.submit(prefetch_video, video_files[i + 1], args.fps, target_resolution)
 
         analysis_start = time.time()
         try:
