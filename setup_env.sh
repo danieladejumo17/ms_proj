@@ -11,3 +11,26 @@ python -m pip install torchvision
 python -m pip install opencv-python
 python -m pip install bitsandbytes
 python scripts/fp8_test.py --video_dir ../stu_dataset/
+
+# %pip install vllm llmcompressor torch torchvision transformers qwen_vl_utils opencv-python
+# pip install --upgrade compressed-tensors llmcompressor
+# pip install --pre --upgrade torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+
+# # 1. Uninstall the incompatible pre-built vLLM
+# pip uninstall -y vllm
+
+# # 2. Install build dependencies
+# pip install --upgrade pip packaging ninja wheel setuptools
+
+# # 3. Clone the vLLM repository
+# git clone https://github.com/vllm-project/vllm.git
+# cd vllm
+
+# # 4. Configure environment for RTX 5090 (Blackwell)
+# #    Force Flash Attention 2 (FA3 is not yet fully stable on Nightly+Blackwell contexts)
+# export VLLM_FLASH_ATTN_VERSION=2
+# #    Use the installed torch version for compilation
+# export VLLM_USE_PRECOMPILED=0
+
+# # 5. Compile and install (This will take ~10 mins)
+# pip install -e .
