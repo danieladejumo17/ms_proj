@@ -14,7 +14,14 @@ python scripts/fp8_test.py --video_dir ../stu_dataset/
 
 # %pip install vllm llmcompressor torch torchvision transformers qwen_vl_utils opencv-python
 # pip install --upgrade compressed-tensors llmcompressor
-# pip install --pre --upgrade torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+# pip uninstall -y torch torchvision vllm && pip install vllm torchvision
+
+pip install --upgrade compressed-tensors llmcompressor transformers qwen_vl_utils opencv-python
+pip install vllm torchvision
+
+
+
+# NOPENPENPENPEpip install --pre --upgrade torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
 
 # # 1. Uninstall the incompatible pre-built vLLM
 # pip uninstall -y vllm

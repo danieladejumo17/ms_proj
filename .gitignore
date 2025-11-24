@@ -6,4 +6,5 @@ stu_dataset/val_out/
 !.gitattributes
 stu_dataset/scene_125.tar.gz
 nuscenes/
-
+output_videos/
+stu_dataset/__pycache__
