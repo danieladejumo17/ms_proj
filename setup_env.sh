@@ -15,9 +15,11 @@ python scripts/fp8_test.py --video_dir ../stu_dataset/
 # %pip install vllm llmcompressor torch torchvision transformers qwen_vl_utils opencv-python
 # pip install --upgrade compressed-tensors llmcompressor
 # pip uninstall -y torch torchvision vllm && pip install vllm torchvision
+pip install open3d
 
-pip install --upgrade compressed-tensors llmcompressor transformers qwen_vl_utils opencv-python
-pip install vllm torchvision
+# pip install --upgrade compressed-tensors llmcompressor transformers qwen_vl_utils opencv-python
+# pip install vllm torchvision
+# pip install datasets numpy decord
 
 
 

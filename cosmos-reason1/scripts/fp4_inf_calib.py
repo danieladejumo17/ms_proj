@@ -34,19 +34,21 @@ logger = logging.getLogger("fp4_calibration")
 
 warnings.filterwarnings("ignore")
 
-try:
-    from vllm import LLM, SamplingParams
-except ImportError:
-    print("❌ Error: 'vllm' not found. Install it via: pip install vllm")
-    sys.exit(1)
+# try:
+from vllm import LLM, SamplingParams
+# except ImportError:
+#     print("❌ Error: 'vllm' not found. Install it via: pip install vllm")
+#     sys.exit(1)
 
-try:
-    from llmcompressor.modifiers.quantization import QuantizationModifier
-    from llmcompressor.pipelines import oneshot
-except ImportError:
-    print("❌ Error: 'llmcompressor' not found. Install it via: pip install llmcompressor")
-    sys.exit(1)
+# try:
+from llmcompressor.modifiers.quantization import QuantizationModifier
+# from llmcompressor.pipelines import oneshot
+from llmcompressor import oneshot
+# except ImportError:
+#     print("❌ Error: 'llmcompressor' not found. Install it via: pip install llmcompressor")
+#     sys.exit(1)
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 from stu_dataset.stu_video_dataset import stu_video_dataloader, Metrics
 
 # ============================================================
