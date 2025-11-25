@@ -231,7 +231,6 @@ def run_inference(dataset_dir: str):
     total_start = time.time()
     
     for video_file, label, _ in stu_video_dataloader(dataset_dir, window_size=50, step_size=20, fps=10, separate_videos=True, output_dir="./output_videos/"):
-        loop_start = time.time()
         video_path = str(Path(video_file).absolute())
         
         # Original detailed prompt structure
@@ -252,6 +251,7 @@ def run_inference(dataset_dir: str):
             "<|assistant|>\n"
         )
         
+        loop_start = time.time()
         inputs = {
             "prompt": prompt_text,
             "multi_modal_data": {
@@ -271,12 +271,12 @@ def run_inference(dataset_dir: str):
                 status = "Normal"
             else:
                 status = f"Raw({generated_text[:50]}...)"
+            elapsed = time.time() - loop_start
 
             # Track metrics
             pred_label = 1 if status == "Anomaly" else 0
-            inference_metrics.update(label, pred_label)
+            inference_metrics.update([label], [pred_label], [elapsed])
 
-            elapsed = time.time() - loop_start
             print(f"[{Path(video_file).name}] -> {status} \t| Time: {elapsed:.3f}s")
             
         except Exception as e:
@@ -293,6 +293,7 @@ def run_inference(dataset_dir: str):
     # print metrics on one line each
     print(f"Accuracy: {final_metrics['accuracy']*100:.2f}% %n Precision: {final_metrics['precision']*100:.2f}% %n Recall: {final_metrics['recall']*100:.2f}% %n F1: {final_metrics['f1']*100:.2f}%")
     print(f"Confusion Matrix: TP={final_metrics['tp']}, TN={final_metrics['tn']}, FP={final_metrics['fp']}, FN={final_metrics['fn']}")
+    print(f"Average Inference Time per Video: {final_metrics['Avg Inference Time']:.3f}s")
 
 # ============================================================
 # Main
