@@ -9,6 +9,8 @@ Optimized for single-GPU efficiency:
 - Prefetches next video on CPU for overlap
 - Cached static text prompt
 """
+import os
+os.environ['FORCE_QWENVL_VIDEO_READER'] = 'decord'
 
 import argparse
 import time

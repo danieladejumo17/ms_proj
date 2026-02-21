@@ -8,3 +8,15 @@ stu_dataset/scene_125.tar.gz
 nuscenes/
 output_videos/
 stu_dataset/__pycache__
+cosmos-reason1_fp4_spring/
+cosmos-reason1-fp4-quant/
+sparse_logs/
+harzard_prcpt/videos/
+harzard_prcpt/videos_subsample/
+harzard_prcpt/output_videos/
+harzard_prcpt/*.webm
+stu_dataset/val_out_run_10_27_2025/
+tmp/
+**/__pycache__/
+# Ignore Windows 'Identifier' files
+**/*:Zone.Identifier

@@ -59,6 +59,7 @@ def build_cached_prompt(processor):
         "Classification: Normal — if no anomaly or obstruction is visible.\n"
         "</answer>"
     )
+    # TODO
     conversation_template = [{"role": "user", "content": [{"type": "text", "text": base_text}]}]
     _ = processor.apply_chat_template(conversation_template, tokenize=False, add_generation_prompt=True)
     return base_text

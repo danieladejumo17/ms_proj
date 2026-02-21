@@ -277,16 +277,17 @@ def iter_ds(ds, window_size=50, step_size=20, video_output_path="output_video.mp
             file_suffix = out_path.suffix
             filename = file_stem + file_suffix
             out_path_video = out_path.parent / filename
-            print("Wrinting video to", out_path_video)
-        
-            video_from_images(ret, f"{out_path_video}", fps=fps)
+            print("Writing video to", out_path_video)
         else:
-            video_from_images(ret, video_output_path, fps=fps)
+            out_path_video = video_output_path
+    
+
+        video_from_images(ret, f"{out_path_video}", fps=fps)
         if first_sample:
             first_sample = False
-            yield video_output_path, np.any(ret_labels), ret # generated video path, label, new images
+            yield out_path_video, np.any(ret_labels), ret # generated video path, label, new images
         else:    
-            yield video_output_path, np.any(ret_labels), images # generated video path, label, new images
+            yield out_path_video, np.any(ret_labels), images # generated video path, label, new images
         # 
         # shift the window
         ret = ret[step_size:]  # slide the window by step_size
@@ -298,6 +299,14 @@ def iter_ds(ds, window_size=50, step_size=20, video_output_path="output_video.mp
 
 def stu_video_dataloader(dataset_root, window_size=50, step_size=20, fps=10, separate_videos=False, output_dir="./output_videos/"):
     dataset_root = Path(dataset_root)
+    
+    # create output dir if not exists
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    # Print full path of output dir
+    print(f"Output videos will be saved to: {output_dir.resolve()}")
+
+    # iterate over each folder in dataset_root
     for folder in sorted(dataset_root.iterdir()):
         if folder.is_dir():
             print(f"Processing folder: {folder.name}")
