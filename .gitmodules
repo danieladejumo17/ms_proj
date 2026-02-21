@@ -1,0 +1,3 @@
+[submodule "cosmos_reason1_fp4_inference"]
+	path = cosmos_reason1_fp4_inference
+	url = git@github.com:danieladejumo17/cosmos_reason1_fp4_inference.git
