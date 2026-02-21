@@ -1,0 +1,1 @@
+curl -O "https://cdn.theorypass.co.uk/videos/[1-36].webm"
