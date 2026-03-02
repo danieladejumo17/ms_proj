@@ -32,10 +32,10 @@ def main():
     parser = argparse.ArgumentParser(
         description="Hazard Perception Test -- Cosmos-Reason1-7B FP4 Inference",
     )
-    parser.add_argument("--video_dir", type=str, default="./videos",
+    parser.add_argument("--video_dir", type=str, default="./data/videos",
                         help="Directory containing test videos (default: ./videos)")
-    parser.add_argument("--labels", type=str, default="labels.csv",
-                        help="CSV file with video labels (default: labels.csv)")
+    parser.add_argument("--labels", type=str, default="./data/labels.csv",
+                        help="CSV file with video labels (default: ./data/labels.csv)")
     parser.add_argument("--min_hazard_frames", type=int, default=10,
                         help="Min overlapping hazard frames for positive label (default: 10)")
     parser.add_argument("--output_dir", type=str, default="./output_videos_fp4",
@@ -67,8 +67,8 @@ def main():
         "</think>\n\n"
         "<answer>\n"
         "Is there any external anomaly in this video? Reply with exactly one of the following:\n"
-        "Classification: Anomaly \u2014 if any obstacle, obstruction, or unsafe condition is visible.\n"
-        "Classification: Normal \u2014 if no anomaly or obstruction is visible.\n"
+        "Classification: Anomaly — if any obstacle, obstruction, or unsafe condition is visible.\n"
+        "Classification: Normal — if no anomaly or obstruction is visible.\n"
         "</answer>"
     )
 

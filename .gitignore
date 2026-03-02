@@ -14,9 +14,12 @@ sparse_logs/
 harzard_prcpt/videos/
 harzard_prcpt/videos_subsample/
 harzard_prcpt/output_videos/
+harzard_prcpt/data/
 harzard_prcpt/*.webm
 stu_dataset/val_out_run_10_27_2025/
 tmp/
 **/__pycache__/
 # Ignore Windows 'Identifier' files
 **/*:Zone.Identifier
+
+cosmos-reason2/
